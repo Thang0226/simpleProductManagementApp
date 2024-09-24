@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Management System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="displayProducts()">
+    <div>
+      <h3>Add New Product</h3>
+      <div>
+        <input type="text" id="new_product" placeholder="New Product" />
+        <button type="button" onclick="addNewProduct()">Add</button>
+      </div>
+
+      <h3>Display All Products</h3>
+      <div id="display"></div>
+
+      <h3>Edit Product Name</h3>
+      Click on product name in the table above to edit
+      <form>
+        <input type="text" id="edit_item" />
+        <button type="button" onclick="editProductName()">Edit</button>
+      </form>
+    </div>
+
+    <script src="management.js"></script>
+  </body>
+</html>

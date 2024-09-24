@@ -1,0 +1,57 @@
+body {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+}
+
+h3 {
+  font-size: 125%;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  color: brown;
+}
+
+form {
+  margin-top: 10px;
+}
+
+button {
+  width: 8ch;
+  height: 30px;
+  font-size: 85%;
+  border: 0px;
+  border-radius: 5px;
+  background-color: hsl(122, 60%, 80%);
+}
+
+input {
+  width: 30ch;
+  height: 25px;
+  font-size: 88%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  font-size: 109%;
+  padding-bottom: 4px;
+}
+
+td {
+  width: 7ch;
+  height: 35px;
+  text-align: center;
+}
+
+.product_name {
+  width: 25ch;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: hsl(0, 0%, 90%);
+}
